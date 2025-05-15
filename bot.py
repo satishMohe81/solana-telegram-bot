@@ -10,7 +10,7 @@ from solana.system_program import TransferParams, transfer
 # Config
 BOT_TOKEN = os.getenv("TELEGRAM_TOKEN")
 ADMIN_CHAT_ID = "5359731364"  # Get from @userinfobot
-ADMIN_WALLET = "ADMIN_WALLET"
+ADMIN_WALLET = os.getenv("ADMIN_WALLET")
 WALLETS_FILE = "wallets.json"
 
 # Initialize
