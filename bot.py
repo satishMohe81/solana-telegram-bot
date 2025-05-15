@@ -8,7 +8,7 @@ from solana.account import Account
 from solana.system_program import TransferParams, transfer
 
 # Config
-BOT_TOKEN = os.getenv("TELEGRAM_TOKEN"")
+BOT_TOKEN = os.getenv("TELEGRAM_TOKEN")
 ADMIN_CHAT_ID = "5359731364"  # Get from @userinfobot
 ADMIN_WALLET = "ADMIN_WALLET"
 WALLETS_FILE = "wallets.json"
